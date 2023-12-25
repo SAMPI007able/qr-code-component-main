@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Permanent+Marker&family=Raleway&family=Sigmar+One&family=Ubuntu&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400&display=swap");
+
+* {
+  font-family: "Outfit", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body-container {
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-wrap: wrap;
+  height: 96vh;
+  padding: 5%;
+}
+.card-center {
+  border-radius: 20px;
+  background-color: hsl(0, 0%, 100%);
+  padding: 20px;
+}
+.card-center > h2 {
+  color: hsl(218, 44%, 22%);
+  text-align: center;
+  margin: 10px 0px;
+}
+.card-center > p {
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+  text-align: center;
+}
+.card-center > img {
+  border-radius: 20px;
+  width: 100%;
+  height: auto;
+}
+
+@media all and (max-width: 375px) {
+  .card-center {
+    width: 100%;
+  }
+}
+@media all and (min-width: 376px) and (max-width: 1124px) {
+  .card-center {
+    width: 50%;
+  }
+}
+@media all and (min-width: 1125px) {
+    .card-center {
+      width: 25%;
+    }
+  }
