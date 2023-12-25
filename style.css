@@ -18,9 +18,9 @@
 .card-center {
   border-radius: 20px;
   background-color: hsl(0, 0%, 100%);
-  padding: 20px;
+  padding: 15px;
 }
-.card-center > h2 {
+.card-center > h3 {
   color: hsl(218, 44%, 22%);
   text-align: center;
   margin: 10px 0px;
